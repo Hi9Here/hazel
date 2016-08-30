@@ -1,0 +1,43 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/app-layout/app-box/app-box.html">
+
+<dom-module id="my-testimonials">
+
+  <link rel=import type="css" href="../styles/page-style.css">
+
+  <template>
+
+    <style>
+       .first {
+      --app-box-background-front-layer: {
+        background-image: url(/images/testimonial-image.jpg);
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
+    </style>
+     <app-box class="first">
+      <section>
+        <div id="sectiontext">
+          <h1>Testimonials</h1>
+        </div>
+      </section>
+    </app-box>
+
+    <div id="textbox">
+      <p></p>
+      
+    </div>
+      
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'my-testimonials'
+
+    });
+  </script>
+
+</dom-module>

@@ -1,0 +1,127 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/app-layout/app-box/app-box.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+
+<dom-module id="my-home">
+
+    <template>
+
+    <style>
+      :host {
+        display: block;
+      }
+      app-box {
+        height: 500px;
+      }
+      .first {
+      --app-box-background-front-layer: {
+        background-image: url(/images/main-smaller.jpg);
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
+     #sectiontext {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding: 20px;
+        display: inline-block;
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    )
+    }
+      .card {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #757575;
+        width: 120px;
+        display: inline-block;
+        height: 100px;
+        padding: 5px;
+
+      }
+      h1 {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 40px;
+        color: #fff;
+        margin: 0;
+      }
+      h2 {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        color: #fff;
+        margin: 0;
+        line-height: 1.3;
+      }
+      #value {
+        padding: 0px 20px 20px 20px;
+      }
+      iron-image {
+        width: 120px;
+        height: 100px;
+      }
+      #logos {
+        display: block;
+        text-align: center;
+      }
+      h3 {
+        font-weight: 300;
+      }
+
+    </style>
+    <app-box class="first">
+      <section>
+        <div id="sectiontext">
+          <img src="../images/hp-logo.png" alt="">
+          <h2>Wedding Business & Event Consultancy</h2>
+          <h2>Building your Success</h2>
+        </div>
+      </section>
+    </app-box>
+      <section id="logos">
+       
+        <div class="card"><iron-image src="../images/amanda-logo.jpg" preload sizing="contain"></iron-image></div>
+        <div class="card"><iron-image src="../images/nawp-logo.jpg" preload sizing="contain"></iron-image></div>      
+        <div class="card"><iron-image src="../images/cosawes-logo.jpg" preload sizing="contain"></iron-image></div>
+        <div class="card"><iron-image src="../images/er-stationary-logo.png" preload sizing="contain"></iron-image></div>
+  
+      </section>
+      <section id="value">
+        <h3>Wedding Business Consultancy: Everything you need to make your wedding business a success</h3>
+
+          <p>Hazel Parsons - a highly experienced wedding industry professional offering a wide range of business and marketing support services specifically tailored to the wedding sector.</p>
+
+          <p>Working with wedding suppliers from cake makers to photographers, florists and stationers to stylists, as well as venues:</p>
+
+          <ul>
+            <li>Wedding Business Consultancy (from planning to operational delivery)</li>
+            <li>Venue Consultancy (including staff training & revenue management)</li>
+            <li>PR & Photoshoots</li>
+            <li>Wedding Day Coordination</li>
+            <li>Wedding Industry Networking Events – meet, connect, share knowledge, learn & have fun with like-minded people!</li>
+          </ul>
+
+          <h3>Event Consultancy</h3>
+          <h4>Creating unforgettable events and celebrations</h4>
+
+          <p>Whether it’s a product launch or a networking lunch, corporate Christmas party or team building away-day – revel in the experience of hosting a truly unique event that you can sit back and enjoy, safe in the knowledge that everything is taken care of.</p>
+      </section>
+      
+  </template>
+
+    <script>
+        Polymer({
+
+            is: 'my-home'
+
+        });
+    </script>
+
+</dom-module>

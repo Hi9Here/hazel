@@ -1,0 +1,191 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/app-route/app-location.html">
+<link rel="import" href="../bower_components/app-route/app-route.html">
+<link rel="import" href="../bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
+<link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
+<link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
+<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="../bower_components/iron-selector/iron-selector.html">
+<link rel="import" href="../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="my-icons.html">
+
+<dom-module id="my-app">
+
+  <template>
+
+    <style>
+
+      :host {
+        display: block;
+        --app-primary-color: #db9271;
+        --app-secondary-color: black;
+      }
+
+      app-header {
+        background-color: var(--app-primary-color);
+        color: #fff;
+      }
+      app-drawer {
+         --app-drawer-scrim-background: rgba(0, 0, 100, 0.8);
+      --app-drawer-content-container: {
+        background-color: #e0a285;
+        color: #fff;
+        }
+      }
+      h1 {
+       font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        color: #fff;
+        margin: 0;
+        line-height: 1.3;
+      }
+      .menu:hover {
+        background-color: #d2c2f1;
+      }
+      app-toolbar {
+        padding: 0px 7px 0px 5px
+      }
+      app-toolbar paper-button {
+        color: #fff;
+        background-color: #955251;
+        height: 50px;
+        width: 130px;
+        margin-right: 0;
+      }
+      app-toolbar iron-icon {
+        color: #fff;
+      }
+      app-toolbar h2 {
+        font-size: 16px;
+        font-weight: 300;
+      }
+      app-toolbar a {
+        text-decoration: none;
+      }
+
+      .drawer-list {
+        margin: 0 20px;
+      }
+      .drawer-list a {
+        display: block;
+        padding: 0 16px;
+        line-height: 40px;
+        text-decoration: none;
+        color: var(--app-secondary-color);
+      }
+      .drawer-list a.iron-selected {
+        color: black;
+        font-weight: bold;
+      }
+      .drawer-list a.subroute {
+        padding-left: 32px;
+      }
+      .drawer-list a:hover {
+        background-color: #fff;
+      }
+      iron-icon {
+        color: #fff;
+        width: 26px;
+        height: 26px;
+        margin-right: 10px;
+      }
+
+    </style>
+
+    <app-location route="{{route}}"></app-location>
+    <app-route
+        route="{{route}}"
+        pattern="/:page"
+        data="{{routeData}}"
+        tail="{{subroute}}"></app-route>
+
+    <app-drawer-layout fullbleed>
+
+      <!-- Drawer content -->
+      <app-drawer swipeOpen>
+        <app-toolbar>Menu</app-toolbar>
+        <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
+          
+          <iron-icon icon="mail"></iron-icon>
+          <a name="home" href="/">Home</a>
+          <a name="aboutme" href="/aboutme">About Me</a>
+          <a name="services" href="/services">Services</a>
+          <a name="events" href="/events">Events</a>
+          <a name="testimonials" href="/testimonials">Testimonials</a>
+          <a name="gallery" href="/gallery">Gallery</a>
+          <a name="contactme" href="/contactme">Contact Me</a>
+        </iron-selector>
+      </app-drawer>
+
+      <!-- Main content -->
+      <app-header-layout has-scrolling-region>
+        <app-header fixed waterfall>
+          <app-toolbar>
+            <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
+            <div title><h1>Hazel Parsons</h1></div>
+            <a href="/contactme">
+                <paper-button>
+                    <h2>Contact Me</h2>
+                </paper-button>
+              </a>
+          </app-toolbar>
+        </app-header>
+
+        <iron-pages role="main" selected="[[page]]" attr-for-selected="name">
+          <my-home name="home"></my-home>
+          <my-aboutme name="aboutme"></my-aboutme>
+          <my-services name="services"></my-services>
+          <my-events name="events"></my-events>
+          <my-testimonials name="testimonials"></my-testimonials>
+          <my-gallery name="gallery"></my-gallery>
+          <my-contactme name="contactme"></my-contactme>
+        </iron-pages>
+
+      </app-header-layout>
+
+    </app-drawer-layout>
+
+  </template>
+
+  <script>
+
+    Polymer({
+
+      is: 'my-app',
+
+      properties: {
+
+        page: {
+          type: String,
+          reflectToAttribute: true,
+          observer: '_pageChanged'
+        },
+
+      },
+
+      observers: [
+        '_routePageChanged(routeData.page)'
+      ],
+
+      _routePageChanged: function(page) {
+        this.page = page || 'home';
+      },
+
+      _pageChanged: function(page) {
+        // load page import on demand.
+        this.importHref(
+          this.resolveUrl('my-' + page + '.html'), null, null, true);
+      }
+
+    });
+
+  </script>
+
+</dom-module>

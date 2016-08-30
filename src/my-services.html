@@ -1,0 +1,138 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/app-layout/app-box/app-box.html">
+
+<dom-module id="my-services">
+
+  <template>
+
+    <style>
+      :host {
+        display: block;
+      }
+      app-box {
+        height: 500px;
+      }
+      .aboutme {
+      --app-box-background-front-layer: {
+        background-image: url(/images/services-image.jpg);
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
+     #sectiontext {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 20px;
+        display: inline-block;
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    )
+    }
+     h1 {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 40px;
+        color: #fff;
+        margin: 0;
+      }
+      h2 {
+        font-weight: 300;
+      }
+      #textbox {
+        padding: 0 20px 20px 20px;
+      }
+      p {
+        font-weight: 300;
+      }
+
+    </style>
+
+     <app-box class="aboutme">
+      <section>
+        <div id="sectiontext">
+          <h1>Services</h1>
+        </div>
+      </section>
+    </app-box>
+
+    <div id="textbox">
+      <p>Whether you’re taking your first steps in the wedding industry, seeking publicity for your burgeoning business, wanting to grow sales or just in need of some straightforward, plain-speaking business advice, I’m here to help you.</p>
+
+      <p>My extensive knowledge of the wedding sector – the people, the media, the vast array of businesses, trends and pricing structures – combines with strategic marketing know-how and creative flair, to make it easy for you to achieve your business objectives.</p>
+
+      <h2>Wedding Business Consultancy</h2>
+
+      <p>All-round business support for wedding industry suppliers, including:business audit and market research
+      optimal pricing and presentation of your product or service identifying new opportunities, market niches and partnerships sales & marketing strategies, planning and delivery monitoring and evaluating activity</p>
+
+      <p>You choose how we work together – ad hoc, on-demand support; an on-going collaboration; troubleshooting or business mentoring – and get all the benefits of an in-house marketing manager with none of the costs!</p>
+
+      <h2>PR & Photo Shoots</h2>
+
+      <p>Time and again business success comes down to who you know and timing. l can help you be in the right place at the right time: identify and manage key stakeholder,influencer and media relationships create a strategically-informed PR campaign build your reputation, on and offline including social media marketing develop high-end editorial and commercial content – text and visuals present your business to its best advantage at trade exhibitions, wedding fayres and networking events obtain and make the most of your media coverage</p>
+
+      <p>Choose a monthly retainer to secure on-going PR support or opt for any number of flexible, on-demand options from one-off press releases for a launch event to an audit and recommendations for your social media marketing.</p>
+
+      <h2>Venue Consultancy</h2>
+
+      <p>Specially designed to offer support to smaller, family-run venues and luxury boutique hotels that may not have their own dedicated Wedding & Events Manager, as well as larger accommodation providers looking to fine-tune or expand their offering: </p>
+      <ul>
+        <li>business audit</li>
+        <li>advice on pricing structures and packages</li>
+        <li>sales and marketing strategies</li>
+        <li>planning and delivery</li>
+        <li>staff training in sales development and management</li>
+        <li>revenue management</li>
+      </ul>
+
+      <h2>Wedding Day Co-ordination</h2>
+
+      <p>Drawing on the skills and knowledge of well over a decade’s experience in wedding planning and events, I can step in, pre-planned or last minute, as a Wedding Day Coordinator, making sure everything on the big day goes off without a hitch:</p>
+
+      <ul>
+        <li>event planning schedule</li>
+        <li>pre-event meeting with bride and groom</li>
+        <li>on-the-day management and coordination</li>
+        <li>additional wedding staff for hire on a demand-led basis </li>
+      </ul>
+
+      <h2>Events</h2>
+      <p>[click through to separate section on website that will include more details as well as client testimonial/visuals of past events – eg Peboryon Duchy Collection launch, Cornwall WedMeetUps, Samphire Club launch]</p>
+
+      <p>Whether it’s a product launch or a networking lunch, corporate Christmas party or team building away-day – revel in the experience of hosting a truly unique event that you can sit back and enjoy, safe in the knowledge that everything is taken care of.</p>
+
+      <p>Making sure that your event is more than stand-out excellent and fulfils your wider business objectives:</p>
+
+      <ul>
+        <li>concept and creation </li>
+        <li>planning and organisation</li>
+        <li>on-the-day management</li>
+        <li>event PR and post-event analytics </li>
+      </ul>
+
+      <h2>Networking</h2>
+
+      <p>Launching and growing a successful business is all about building meaningful relationships. I strongly believe in driving up standards in the wedding industry and thrive on connecting like-minded businesses and promoting collaboration.</p>
+
+      <p>Recognised as a wedding industry super-connector in the South West, I’m on the National Association of Wedding Planners’ executive team and regularly organise sell-out industry networking events (the market-leading B2B Wed MeetUps) [click through to Wed MeetUps section on Events page] as well as working with venues putting together wedding supplier showcase events for both trade and public.</p> 
+    </div>
+      
+
+  </template>
+
+  <script>
+
+    Polymer({
+
+      is: 'my-services'
+
+    });
+
+  </script>
+
+</dom-module>

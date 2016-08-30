@@ -1,0 +1,62 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/app-layout/app-box/app-box.html">
+<link rel="import" href="../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../bower_components/site-card/site-card.html">
+
+<dom-module id="my-events">
+
+    <link rel="import" type="css " href="../styles/page-style.css">
+
+    <template>
+
+    <style>
+       .first {
+      --app-box-background-front-layer: {
+        background-image: url(/images/events-image.jpg);
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
+    </style>
+     <app-box class="first">
+      <section>
+        <div id="sectiontext">
+          <h1>Events</h1>
+        </div>
+      </section>
+    </app-box>
+
+    <div id="textbox">
+      
+      <iron-icon icon="add"></iron-icon>
+      
+      <p>Whether it’s a product launch or a networking lunch, corporate Christmas party or team building away-day – revel in the experience of hosting a truly unique event that you can sit back and enjoy, safe in the knowledge that everything is taken care of.</p>
+    </div>
+
+    <site-card 
+            title="Event"
+            barcolor="blue"
+            icon="mail"
+            pic="../images/demo-image.jpeg"
+            link="#"
+            buttontitle="Book Now"
+            buttonlink="#"
+            icondisplay="block"
+          >        
+    </site-card>
+
+      
+  </template>
+
+    <script>
+        Polymer({
+
+            is: 'my-events'
+
+        });
+    </script>
+
+</dom-module>
