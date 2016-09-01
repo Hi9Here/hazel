@@ -1,211 +1,187 @@
 {
-  "events": [
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    }
-  ],
-  "contacts": [
-    {
-      "title": "Facebook",
-      "subtitle": "Find me on FB",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "https://www.facebook.com/HazelAParsons/?fref=ts"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    }
-  ],
-  "gallery": [
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    }
-  ],
-   "testimonials": [
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    },
-    {
-      "title": "text",
-      "subtitle": "text",
-      "price": "text",
-      "date": "text",
-      "time": "text",
-      "location": "text",
-      "img": "img_url",
-      "button": "action"
-    }
-  ]
+    "events": [{
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }],
+    "contacts": [{
+        "title": "Facebook",
+        "subtitle": "Find me on FB",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "https://www.facebook.com/HazelAParsons/?fref=ts"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }],
+    "gallery": [{
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }],
+    "testimonials": [{
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }, {
+        "title": "text",
+        "subtitle": "text",
+        "price": "text",
+        "date": "text",
+        "time": "text",
+        "location": "text",
+        "img": "img_url",
+        "button": "action"
+    }]
 }
