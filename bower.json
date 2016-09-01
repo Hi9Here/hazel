@@ -22,7 +22,8 @@
     "paper-toolbar": "PolymerElements/paper-toolbar#^1.1.6",
     "site-card": "Hi9Here/site-card",
     "paper-fab": "PolymerElements/paper-fab#^1.2.0",
-    "paper-dialog": "PolymerElements/paper-dialog#^1.1.0"
+    "paper-dialog": "PolymerElements/paper-dialog#^1.1.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.4.3"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"
