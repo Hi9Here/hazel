@@ -82,14 +82,14 @@
         "img": "img_url",
         "button": "07900 954 051"
     }, {
-        "title": "text",
-        "subtitle": "text",
+        "title": "Address",
+        "subtitle": "Wrie to Me",
         "price": "text",
         "date": "text",
         "time": "text",
         "location": "text",
         "img": "img_url",
-        "button": "action"
+        "button": "75 High Street, Penzance. TR18 2SU"
     }],
     "gallery": [{
         "title": "text",
