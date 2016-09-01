@@ -47,7 +47,7 @@
     }],
     "contacts": [{
         "title": "Facebook",
-        "subtitle": "Find me on FB",
+        "subtitle": "Find Me",
         "price": "text",
         "date": "text",
         "time": "text",
@@ -55,32 +55,32 @@
         "img": "img_url",
         "button": "https://www.facebook.com/HazelAParsons/?fref=ts"
     }, {
-        "title": "text",
-        "subtitle": "text",
+        "title": "Twitter",
+        "subtitle": "Tweet Me",
         "price": "text",
         "date": "text",
         "time": "text",
         "location": "text",
         "img": "img_url",
-        "button": "action"
+        "button": "https://twitter.com/hazelaparsons?lang=en-gb"
     }, {
-        "title": "text",
-        "subtitle": "text",
+        "title": "Email",
+        "subtitle": "Mail Me",
         "price": "text",
         "date": "text",
         "time": "text",
         "location": "text",
         "img": "img_url",
-        "button": "action"
+        "button": "me@hazelparsons.com"
     }, {
-        "title": "text",
-        "subtitle": "text",
+        "title": "Phone",
+        "subtitle": "Call Me",
         "price": "text",
         "date": "text",
         "time": "text",
         "location": "text",
         "img": "img_url",
-        "button": "action"
+        "button": "07900 954 051"
     }, {
         "title": "text",
         "subtitle": "text",
