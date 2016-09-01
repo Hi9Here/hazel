@@ -53,14 +53,14 @@
   ],
   "contacts": [
     {
-      "title": "text",
-      "subtitle": "text",
+      "title": "Facebook",
+      "subtitle": "Find me on FB",
       "price": "text",
       "date": "text",
       "time": "text",
       "location": "text",
       "img": "img_url",
-      "button": "action"
+      "button": "https://www.facebook.com/HazelAParsons/?fref=ts"
     },
     {
       "title": "text",
