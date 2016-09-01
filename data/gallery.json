@@ -1,0 +1,59 @@
+{
+  "cards": [
+    {
+      "title": "text",
+      "subtitle": "text",
+      "price": "text",
+      "date": "text",
+      "date": "text",
+      "time": "text",
+      "location": "text",
+      "img": "img_url",
+      "button": "action"
+    },
+    {
+      "title": "text",
+      "subtitle": "text",
+      "price": "text",
+      "date": "text",
+      "date": "text",
+      "time": "text",
+      "location": "text",
+      "img": "img_url",
+      "button": "action"
+    },
+    {
+      "title": "text",
+      "subtitle": "text",
+      "price": "text",
+      "date": "text",
+      "date": "text",
+      "time": "text",
+      "location": "text",
+      "img": "img_url",
+      "button": "action"
+    },
+    {
+      "title": "text",
+      "subtitle": "text",
+      "price": "text",
+      "date": "text",
+      "date": "text",
+      "time": "text",
+      "location": "text",
+      "img": "img_url",
+      "button": "action"
+    },
+    {
+      "title": "text",
+      "subtitle": "text",
+      "price": "text",
+      "date": "text",
+      "date": "text",
+      "time": "text",
+      "location": "text",
+      "img": "img_url",
+      "button": "action"
+    }
+  ]
+}
