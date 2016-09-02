@@ -44,6 +44,16 @@
         "location": "text",
         "img": "img_url",
         "button": "action"
+    }, {
+        "title": "Cornwall Wed Meetup",
+        "subtitle": "What a Day",
+        "price": "",
+        "date": "2015",
+        "time": "",
+        "location": "Eden Project",
+        "img": "https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/events%2Fmeetup%2FRainforest%20Biome.jpg?alt=media&token=8b394ea6-4cb3-4162-b99a-ddf8cb9f83a0",
+        "button": "http://www.cornwallwedmeetup.com/"
+    }, {
     }],
     "contacts": [{
         "title": "Facebook",
