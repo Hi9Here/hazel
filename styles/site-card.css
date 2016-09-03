@@ -1,0 +1,43 @@
+    .site-card {
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+    }
+    
+    .site-card paper-material {
+      display: inline-block;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      color: #333333;
+    }
+    
+    .site-card h2 {
+      font-weight: 300;
+      font-size: 18px;
+    }
+    
+    .site-card h3 {
+      font-weight: 400;
+      font-size: 16px;
+      margin: 10px;
+    }
+    
+    .site-card a {
+      text-decoration: none;
+    }
+    
+    .site-card paper-toolbar {
+      font-size: 14px;
+      text-align: center;
+    }
+    
+    .site-card #stuff {
+      height: 165px;
+      display: inline-block;
+    }
+    
+    .site-card #bottomstuff {
+      height: 165px;
+      display: inline-block;
+    }
