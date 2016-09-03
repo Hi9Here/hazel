@@ -3,9 +3,9 @@
 
 <dom-module id="my-contactme">
 
-  <link rel=import type="css" href="../styles/page-style.css">
+    <link rel=import type="css" href="../styles/page-style.css">
 
-  <template>
+    <template>
 
     <style>
       h1 {
@@ -21,26 +21,54 @@
         <h2>Let's Talk</h2>
       </div>
     <site-card 
-            title="Richard Blewett Proprietor"
-            subtitle="Amazing, fucking great. The best ever. Wow she was awesome"
+            title="Facebook"
+            subtitle="Friend Me"
             barcolor="#BCAAA4"
-            buttontitle="More"
-            buttonlink="http://marvellous-weddings.squarespace.com/"
-            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/images%2FPengenna%20Manor%20Logo.jpg?alt=media&token=9c237f4f-27cf-4e58-b037-f4c963bc1871"
-            buttoncolor="#955251"
+            link="http://marvellous-weddings.squarespace.com/"
+            pic=""
+          >        
+    </site-card>
+    <site-card 
+            title="Twitter"
+            subtitle="Follow Me"
+            barcolor="#BCAAA4"
+            link="https://twitter.com/hazelaparsons"
+            pic=""
+          >        
+    </site-card>
+    <site-card 
+            title="Email"
+            subtitle="Mail Me"
+            barcolor="#BCAAA4"
+            link="mailto:me@hazelparsons.com"
+            pic=""
+          >        
+    </site-card>
+    <site-card 
+            title="Phone"
+            subtitle="Call Me"
+            barcolor="#BCAAA4"
+            link="tel:07900 954 051"
+            pic=""
+          >        
+    </site-card>
+    <site-card 
+            title="Address"
+            subtitle="Post Me"
+            barcolor="#BCAAA4"
+            link="Google Maps"
+            pic=""
           >        
     </site-card>
 
   </template>
 
-  <script>
+    <script>
+        Polymer({
 
-    Polymer({
+            is: 'my-contactme'
 
-      is: 'my-contactme'
-
-    });
-
-  </script>
+        });
+    </script>
 
 </dom-module>
