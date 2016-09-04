@@ -17,7 +17,7 @@
 
 <dom-module id="my-app">
 
-  <template>
+    <template>
 
     <style>
 
@@ -146,6 +146,7 @@
           <my-testimonials name="testimonials"></my-testimonials>
           <my-gallery name="gallery"></my-gallery>
           <my-contactme name="contactme"></my-contactme>
+          <my-boho name="boho"></my-boho>
         </iron-pages>
 
       </app-header-layout>
@@ -154,38 +155,36 @@
 
   </template>
 
-  <script>
+    <script>
+        Polymer({
 
-    Polymer({
+            is: 'my-app',
 
-      is: 'my-app',
+            properties: {
 
-      properties: {
+                page: {
+                    type: String,
+                    reflectToAttribute: true,
+                    observer: '_pageChanged'
+                },
 
-        page: {
-          type: String,
-          reflectToAttribute: true,
-          observer: '_pageChanged'
-        },
+            },
 
-      },
+            observers: [
+                '_routePageChanged(routeData.page)'
+            ],
 
-      observers: [
-        '_routePageChanged(routeData.page)'
-      ],
+            _routePageChanged: function(page) {
+                this.page = page || 'home';
+            },
 
-      _routePageChanged: function(page) {
-        this.page = page || 'home';
-      },
+            _pageChanged: function(page) {
+                // load page import on demand.
+                this.importHref(
+                    this.resolveUrl('my-' + page + '.html'), null, null, true);
+            }
 
-      _pageChanged: function(page) {
-        // load page import on demand.
-        this.importHref(
-          this.resolveUrl('my-' + page + '.html'), null, null, true);
-      }
-
-    });
-
-  </script>
+        });
+    </script>
 
 </dom-module>
