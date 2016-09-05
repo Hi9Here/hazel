@@ -9,6 +9,10 @@
         "src/my-gallery.html",
         "src/my-contactme.html",
         "src/my-services.html",
-        "src/my-boho.html"
+        "src/my-boho.html",
+        "src/my-elegant.html",
+        "src/my-country.html",
+        "src/my-festival.html",
+        "src/my-more.html"
     ]
 }
