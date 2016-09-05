@@ -7,22 +7,29 @@
 
     <template>
 
-    <style>
-      h1 {
-        color: #333;
-      }
-      h2 {
-        margin: 0;
-      }
-      iron-image {
-        color: orange;
-      }
+      <style>
+       .first {
+      --app-box-background-front-layer: {
+        background-image: url(/images/contact-me.jpg);
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
     </style>
-    
-      <div id="heading">
-        <h1>Contact Me</h1>
-        <h2>Let's Talk</h2>
-      </div>
+     <app-box class="first">
+      <section>
+        <div id="sectiontext">
+          <h1>Contact Me</h1>
+        </div>
+      </section>
+    </app-box>
+
+    <div id="textbox">
+      <p></p>
+      
+    </div>
+
     <site-card 
             title="Facebook"
             subtitle="Friend Me"
