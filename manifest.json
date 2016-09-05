@@ -2,23 +2,23 @@
     "name": "Hazel Parsons Wedding Marketing Consultancy",
     "short_name": "Hazel Parsons",
     "icons": [{
-        "src": "images/hazel-logo-32.png",
+        "src": "images/hazel-logos/hazel-logo-32.png",
         "type": "image/png",
         "sizes": "32x32"
     }, {
-        "src": "images/hazel-logo-128.svg",
+        "src": "images/hazel-logos/hazel-logo-128.svg",
         "sizes": "128x128",
         "type": "image/svg"
     }, {
-        "src": "images/hazel-logo-144.png",
+        "src": "images/hazel-logos/hazel-logo-144.png",
         "sizes": "144x144",
         "type": "image/png"
     }, {
-        "src": "images/hazel-logo-192.svg",
+        "src": "images/hazel-logos/hazel-logo-192.svg",
         "sizes": "192x192",
         "type": "image/svg"
     }, {
-        "src": "images/hazel-logo-384.svg",
+        "src": "images/hazel-logos/hazel-logo-384.svg",
         "sizes": "384x384",
         "type": "image/svg"
     }],
