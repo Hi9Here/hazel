@@ -39,3 +39,18 @@
       font-weight: 300;
       font-size: 18px;
   }
+  
+  a {
+      text-decoration: none;
+      color: #333;
+  }
+  
+  #textbox p {
+      text-decoration: none;
+      font-size: 30px;
+      margin-bottom: 0;
+  }
+  
+  #textbox {
+      text-align: center;
+  }
