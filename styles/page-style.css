@@ -3,7 +3,7 @@
       text-align: center;
   }
   
-  app-box {
+  app-box.first {
       height: 450px;
   }
   
@@ -37,7 +37,7 @@
   
   p {
       font-weight: 300;
-      font-size: 18px;
+      font-size: 16px;
   }
   
   a {
@@ -46,24 +46,20 @@
   }
   
   #textbox p {
-      text-decoration: none;
-      font-size: 30px;
       margin-bottom: 0;
+      font-size: 16px;
   }
   
   #textbox {
       text-align: center;
   }
-  
-  .first {
+        .first {
       --app-box-background-front-layer: {
-          background-image: url(/images/gallery-image.jpg);
-          padding-bottom: 120px;
-          margin-top: -40px;
-          height: 100%;
-      }
-      ;
-  }
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
   
   iron-image {
       width: 100%;
