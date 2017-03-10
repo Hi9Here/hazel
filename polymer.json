@@ -14,5 +14,11 @@
         "src/my-country.html",
         "src/my-festival.html",
         "src/my-more.html"
-    ]
+    ],
+    "sources": [
+        "src/**/*",
+        "images/**/*",
+        "bower.json"
+  ]
 }
+
